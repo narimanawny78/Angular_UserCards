@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="profile-pic">
+    <!-- لو مفيش صورة هيبقى دايرة فاضية زي الصورة اللي بعتيها -->
+    <div class="circle"></div>
+    <!-- لو عايزة صورة حقيقية بعدين: <img [src]="user.profileImage" alt="profile"> -->
+     <img [src]="User.profileImage" alt="">
+  </div>
+
+  <p>{{User.userName}}</p>
+    <p>{{User.email}}</p>
+    <p>{{User.phone}}</p>
+    <span ><i [ngClass]="User.verified ? 'green' : 'red'" class="fa-solid fa-star"></i></span>
+</div>
