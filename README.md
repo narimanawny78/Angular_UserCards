@@ -1,27 +1,87 @@
-# UserCards
+# Users List App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+A modern Angular 17 application that displays user cards with search functionality, custom email validation directive, and JSON-based data loading.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Display users as cards
+- Search users by email
+- Reset search functionality
+- Custom Email Validation Directive
+- Dynamic data loaded from JSON file
+- Verified users indicator
+- Responsive UI Design
+- Angular Standalone Components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## Technologies Used
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Angular 17
+- TypeScript
+- HTML5
+- CSS3
+- Angular Directives
+- Angular Forms
+- HttpClient
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Project Structure
 
-## Running end-to-end tests
+```bash
+src/
+│
+├── app/
+│   ├── user-card/
+│   ├── directives/
+│   ├── models/
+│   └── app.component.*
+│
+├── assets/
+│   └── users.json
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## Installation
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Clone the repository:
+
+```bash
+git clone https://github.com/narimanawny78/Angular_UserCards.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+ng serve
+```
+
+---
+
+## Screenshots
+
+<img width="733" height="867" alt="image" src="https://github.com/user-attachments/assets/e3cab601-e692-4384-a4ff-0c0cdb4753f5" />
+
+<h3>Searching for User</h3>
+<img width="649" height="592" alt="image" src="https://github.com/user-attachments/assets/44b3be67-e054-4613-a48b-cf8192730b0a" />
+
+
+---
+
+
+
+---
+
+## Author
+
+Nariman Awny
