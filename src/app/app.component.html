@@ -1,8 +1,12 @@
 <div class="container">
     <h1>Users</h1>
     <div class="search">
-      <input type="email"placeholder="email" [(ngModel)]="searchEmail">
+      <input type="email" placeholder="email" [(ngModel)]="searchEmail" appEmailValidate>
       <button (click)="filterEmail()">Search</button>
+      @if (searchEmail) {
+        <button (click)="resetSearch()"> Reset </button>
+      }
+
     </div>
     <div class="cards-container">
       @for (user of fileredEmail; track $index) {
