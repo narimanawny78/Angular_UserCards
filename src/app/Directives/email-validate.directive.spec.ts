@@ -1,4 +1,4 @@
-import { EmailVailidateDirective } from './email-vailidate.directive';
+import { EmailVailidateDirective } from './email-validate.directive';
 
 describe('EmailVailidateDirective', () => {
   it('should create an instance', () => {
